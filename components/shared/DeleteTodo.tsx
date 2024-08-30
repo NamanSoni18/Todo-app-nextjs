@@ -3,7 +3,7 @@ import { deleteTodo } from "@/app/actions/todoActions"
 import Button from "../ui/Button"
 import Form from "../ui/Form"
 import Input from "../ui/Input"
-import { todoType } from "@/types/TodoType"
+import { todoType } from "@/types/todoType"
 import { BsFillTrashFill } from "react-icons/bs"
 
 const DeleteTodo = ({todo}: {todo: todoType}) => {

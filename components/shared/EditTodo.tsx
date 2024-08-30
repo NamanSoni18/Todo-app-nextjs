@@ -4,7 +4,7 @@ import Form from "../ui/Form";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 import { useState } from "react";
-import { todoType } from "@/types/TodoType";
+import { todoType } from "@/types/todoType";
 import { BiEdit } from "react-icons/bi";
 
 const EditTodo = ({ todo }: {todo: todoType}) => {

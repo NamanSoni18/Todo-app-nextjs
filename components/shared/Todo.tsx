@@ -1,5 +1,5 @@
 import ChangeTodo from "./ChangeTodo";
-import { todoType } from "@/types/TodoType";
+import { todoType } from "@/types/todoType";
 import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
 
