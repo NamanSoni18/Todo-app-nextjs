@@ -2,6 +2,7 @@ import ChangeTodo from "./ChangeTodo";
 import { todoType } from "@/types/todoType";
 import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
+import { useTheme } from "next-themes"
 
 const Todo = ({ todo }: {todo: todoType}) => {
   const todoStyle = {
@@ -11,7 +12,7 @@ const Todo = ({ todo }: {todo: todoType}) => {
 
   return (
     <div
-      className="w-full flex items-center justify-between bg-white py-3 px-20 rounded-2xl"
+      className="w-full flex items-center justify-between bg-slate-400 py-3 px-20 rounded-2xl"
       style={todoStyle}
     >
       <ChangeTodo todo={todo} />

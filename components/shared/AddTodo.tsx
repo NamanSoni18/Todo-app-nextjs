@@ -1,6 +1,6 @@
 import Form from "../ui/Form";
 import Input from "../ui/Input";
-import Button from "../ui/Button";
+import { Button } from "@/components/ui/Button";
 import { create } from "@/app/actions/todoActions";
 
 const AddTodo = () => {
@@ -8,7 +8,7 @@ const AddTodo = () => {
     <Form action={create} className="w-1/2 m-auto">
       <div className="flex">
         <Input name="input" type="text" placeholder="Add Todo.." />
-        <Button type="submit" text="Add" />
+        <Button>Add</Button>
       </div>
     </Form>
   );
